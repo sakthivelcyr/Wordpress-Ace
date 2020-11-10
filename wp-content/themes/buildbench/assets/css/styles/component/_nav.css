@@ -1,0 +1,174 @@
+/*   Top Bar
+=================================*/
+.top-bar .header-nav-right-info,
+.top-bar li {
+  display: inline-block;
+  padding: 6px 33px;
+  margin-right: 0px;
+  color: #101010;
+  font-size: 14px; }
+  .top-bar .header-nav-right-info i,
+  .top-bar li i {
+    font-size: 20px;
+    color: #222222;
+    margin: 0px 10px; }
+
+.top-bar .unstyled {
+  display: inline-block; }
+  .top-bar .unstyled li {
+    padding: 0px; }
+    .top-bar .unstyled li i {
+      font-size: 14px;
+      color: #101010; }
+    .top-bar .unstyled li:last-child {
+      margin-right: 0px; }
+
+/*   Logo
+=================================*/
+.main-logo {
+  background: #ffb923;
+  padding: 34px 0px;
+  text-align: center; }
+
+/*   Nav Search
+=================================*/
+.nav-search {
+  height: 60px;
+  float: right;
+  z-index: 1; }
+
+.nav-search-button {
+  width: 75px;
+  height: 60px;
+  font-size: 22px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #222222; }
+
+/*   Nav Button
+=================================*/
+.nav-button {
+  margin: 0px;
+  padding: 17px 28px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  float: right;
+  text-decoration: none;
+  border-radius: 0px;
+  background-color: #ffb923;
+  -webkit-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s; }
+  .nav-button a {
+    color: #101010;
+    font-weight: 700;
+    text-transform: uppercase; }
+
+.nav-button, .nav-text {
+  display: inline-block;
+  font-size: 13px; }
+
+/*   Nav classic
+=================================*/
+.ts-top-bar {
+  background: #000; }
+  .ts-top-bar .top-bar .unstyled li {
+    padding: 10px 0px; }
+  .ts-top-bar .top-bar .header-nav-right-info {
+    padding: 6px 0px; }
+    .ts-top-bar .top-bar .header-nav-right-info li {
+      padding-left: 0px;
+      padding-right: 30px;
+      color: #fff; }
+      .ts-top-bar .top-bar .header-nav-right-info li i {
+        color: #fff; }
+        .ts-top-bar .top-bar .header-nav-right-info li i.fa {
+          color: #ffb923; }
+  .ts-top-bar .top-bar .unstyled li a .social-icon i {
+    color: #fff; }
+
+.nav-classic .main-logo {
+  position: absolute;
+  z-index: 2;
+  padding: 34px 10px; }
+  .nav-classic .main-logo a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: -650px;
+    width: 650px;
+    background: #ffb923; }
+  .nav-classic .main-logo a:after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    z-index: 999;
+    border-top: 110px solid #ffb923;
+    border-left: 0px solid transparent;
+    border-right: 100px solid transparent;
+    bottom: 0; }
+
+.nav-classic .navbar {
+  min-height: 85px;
+  background-color: #fff; }
+  .nav-classic .navbar .nav-item .menu-border {
+    color: #101010; }
+    .nav-classic .navbar .nav-item .menu-border:after {
+      top: 30px; }
+    .nav-classic .navbar .nav-item .menu-border:hover {
+      color: #ffb923; }
+  .nav-classic .navbar .nav-item.active .menu-border {
+    color: #ffb923 !important; }
+
+.nav-classic .right-menu .nav-button {
+  margin-top: 20px;
+  padding: 12px 28px; }
+
+.nav-classic .right-menu .nav-search {
+  background: #fff; }
+  .nav-classic .right-menu .nav-search span i.icon {
+    color: #000;
+    line-height: 90px; }
+
+.nav-classic .right-menu .search-block {
+  bottom: -56px; }
+  .nav-classic .right-menu .search-block .search-close {
+    color: #000;
+    background: #fff;
+    top: -60px; }
+
+/*   Nav standard
+=================================*/
+.nav-standard:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 90px;
+  top: 0;
+  left: 0;
+  background-color: rgba(36, 33, 24, 0.3);
+  z-index: -1; }
+
+.nav-standard .navbar {
+  background-color: #fff; }
+  .nav-standard .navbar .navbar-nav .dropdown a {
+    color: #000; }
+
+.nav-standard .nav-search {
+  background: #ffff; }
+  .nav-standard .nav-search span i.icon {
+    color: #000; }
+
+.nav-standard .search-block {
+  right: 150px;
+  bottom: -55px; }
+  .nav-standard .search-block .search-close {
+    color: #000;
+    position: absolute;
+    top: -50px;
+    right: 15px;
+    background: #fff; }
